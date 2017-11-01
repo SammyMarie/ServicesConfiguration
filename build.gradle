@@ -39,9 +39,11 @@ subprojects{
 
     dependencies{
         testCompile 'org.springframework.boot:spring-boot-starter-test'
+
+        compile 'org.springframework.boot:spring-boot-starter-actuator'
     }
 }
 
 task wrapper(type : Wrapper){
-    gradleVersion = '4.1'
+    gradleVersion = '4.2.1'
 }
